@@ -1,4 +1,4 @@
-html, body, div, span, h1, h2, h3, h4, a, ol, ul, li, form, label, article, aside, figure, figcaption, footer, header, nav {
+html, body, div, span, h1, h2, h3, h4, a, ol, ul, form, label, article, aside, figure, figcaption, footer, header, nav {
   margin: 0;
   padding: 0;
   border: 0;
@@ -9,10 +9,6 @@ html, body, div, span, h1, h2, h3, h4, a, ol, ul, li, form, label, article, asid
 
 body {
   line-height: 1.5;
-}
-
-ol, ul {
-  list-style: none;
 }
 
 input[type="radio"], select, input[type="submit"] {
@@ -27,7 +23,7 @@ h2 + .user_review {
 /* This is useful when implementing a grid system so that all image elements
 will take up 100% width of their containers */
 img {
-  width: 100%
+  width: 100%;
 }
 
 
