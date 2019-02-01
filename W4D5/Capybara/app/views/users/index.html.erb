@@ -1,0 +1,11 @@
+<!-- <h1> Music City </h1> -->
+<a href="<%= new_user_url %>"> New Artist </a>
+
+<ul>    
+    <% @user.each do |user| %>
+      <li>    
+        <%= render 'user', user: user, action: :index %>
+      </li>
+      <br> 
+    <% end %>
+</ul>

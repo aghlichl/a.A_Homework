@@ -1,0 +1,20 @@
+<ul>
+  <% if action == :show %>
+    <li>Email:
+      <%= user.email %>
+    </li>
+  <% end %>
+  <% if action == :index %>
+    <a href="<%= user_url(user) %>">Show me this artist</a>
+  <% elsif action == :show %>
+    <a href="<%= users_url %>">All Artists</a>
+  <% end %>
+  <br>
+  <a href="<%= edit_user_url(user) %>">Edit Artist Profile</a>
+  <br>
+  <form action="<%= user_url(user) %>" method="post">
+    <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+    <input type="hidden" name="_method" value="delete">
+    <input type="submit" value="Delete Artist">
+  </form>
+</ul>
