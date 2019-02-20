@@ -17,6 +17,7 @@
 
 
 `REVIEW`
+
 | **column name** | **data type**  | **details**                    |
 |-----------------|----------------|--------------------------------|
 | `id`            | integer        | not null, primary key          |
@@ -37,6 +38,7 @@
 
 
 `BUSINESS`
+
 | **column name** | **data type** | **details**           |
 |-----------------|---------------|-----------------------|
 | `id`            | integer       | not null, primary key |
