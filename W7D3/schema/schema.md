@@ -21,10 +21,10 @@
 |-----------------|----------------|--------------------------------|
 | `id`            | integer        | not null, primary key          |
 | `body`          | string         | not null                       |
-| `photos`         | varbinary(max) |                                |
-| `num_useful`    | integer       |                        |
-| `num_cool`    | integer       |                        |
-| `num_funny`    | integer       |                        |
+| `photos`        | varbinary(max) |                                |
+| `num_useful`    | integer        |                                |
+| `num_cool`      | integer        |                                |
+| `num_funny`     | integer        |                                |
 | `user_id`       | integer        | not null, indexed, foreign key |
 | `business_id`   | integer        | not null, indexed, foreign key |
 | `created_at`    | datetime       | not null                       |
@@ -41,12 +41,12 @@
 |-----------------|----------------|--------------------------------|
 | `id`            | integer        | not null, primary key          |
 | `name`          | string         | not null                       |
-| `category`    | string       | not null                       |
-| `dollar_sign`    | integer       | not null                       |
-| `address`    | string       | not null                       |
-| `phone`    | string       | not null                       |
-| `website`    | string       | not null                       |
-| `avg_rating`    | float       | not null                       |
+| `category`      | string         | not null                       |
+| `dollar_sign`   | integer        | not null                       |
+| `address`       | string         | not null                       |
+| `phone`         | string         | not null                       |
+| `website`       | string         | not null                       |
+| `avg_rating`    | float          | not null                       |
 | `created_at`    | datetime       | not null                       |
 | `updated_at`    | datetime       | not null                       |
 
